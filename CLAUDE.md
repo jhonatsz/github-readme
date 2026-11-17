@@ -40,11 +40,14 @@ Analytics, Connect with Me.
 - **Connect badges** use the same shields.io pattern but with the brand color as
   the background and `logoColor=white`, each wrapped in an `<a>` link inside a
   centered `<p>`.
-- **GitHub Analytics** cards come from a self-hosted
-  [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-  deployment on Vercel (`github-readme-stats-eight-theta.vercel.app`), theme
-  `buefy`. If the cards break, the cause is that deployment (or its GitHub
-  token), not this repo.
+- **GitHub Analytics** cards come from the hosted service
+  [ghstats.dev](https://ghstats.dev) (`/api/card` and `/api/langs`; options in
+  its [README](https://github.com/rowkavdev/GitHub-profile-stats)). It replaced
+  a self-hosted github-readme-stats Vercel deployment that was disabled in
+  2026-11. ghstats.dev has no `buefy` theme, so both cards carry the same
+  colour overrides (`bg`, `text`, `title_color`, `icon_color`, `border_color`)
+  to keep that look; change them together. Both images use `height="176"` so
+  they sit side by side within the README width. It only sees public activity.
 
 ## Images
 

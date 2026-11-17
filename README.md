@@ -41,8 +41,8 @@
 
 ### ⚙️ &nbsp;GitHub Analytics
 <a href="https://github.com/jhonatsz">
-  <img height="192em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=jhonatsz&show_icons=true&theme=buefy&include_all_commits=true&count_private=true" />
-  <img height="192em"  src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jhonatsz&layout=compact&langs_count=10&theme=buefy" />
+  <img height="176" alt="GitHub Stats" src="https://ghstats.dev/api/card?username=jhonatsz&size=compact&compact_count=6&alltime=true&bg=ffffff&text=363636&title_color=7957d5&icon_color=ff3860&border_color=e4e2e2" />
+  <img height="176" alt="Most Used Languages" src="https://ghstats.dev/api/langs?username=jhonatsz&layout=compact&max_langs=10&bg=ffffff&text=363636&title_color=7957d5&icon_color=ff3860&border_color=e4e2e2" />
 </a>
 <br/>
 
