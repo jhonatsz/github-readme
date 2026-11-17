@@ -37,17 +37,19 @@
 ![Git](https://img.shields.io/badge/-Git-white?style=flat&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-white?style=flat&logo=github&logoColor=black)
 ![Markdown](https://img.shields.io/badge/-Markdown-white?style=flat&logo=markdown&logoColor=black)
-</br>
+<br/>
+
 ### ⚙️ &nbsp;GitHub Analytics
 <a href="https://github.com/jhonatsz">
   <img height="192em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=jhonatsz&show_icons=true&theme=buefy&include_all_commits=true&count_private=true" />
   <img height="192em"  src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jhonatsz&layout=compact&langs_count=10&theme=buefy" />
 </a>
-</br>
+<br/>
+
 ### 🤝🏻 &nbsp;Connect with Me
 <p align="center">
 <a href="https://www.jhonatsz.dev"><img src="https://img.shields.io/badge/-www.jhonatsz.dev-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-<a href="mailto:jhonathan@giolosts.co"><img src="https://img.shields.io/badge/-jhonatsz@giolosts.co-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="mailto:jhonathan@giolosts.co"><img src="https://img.shields.io/badge/-jhonathan@giolosts.co-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://linkedin.com/in/jhonatsz"><img src="https://img.shields.io/badge/-jhonatsz-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="https://instagram.com/jhonatsz"><img src="https://img.shields.io/badge/-@jhonatsz-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://facebook.com/jhonatsz"><img src="https://img.shields.io/badge/-@jhonatsz-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
