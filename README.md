@@ -1,56 +1,57 @@
-![Jhonathan Howard Banner](images/banner.png)
+<img alt="Jhonathan Howard: Building innovations for the Great Commission" src="images/matrix-banner.svg" width="100%"/>
 
-<img alt="Night Coding" src="images/wave.gif" width='40' align="left"/><h2> Hey there! I'm jhonatsz.</h2>
+### `$ cat about.txt`
 
-### 👨🏻‍💻 &nbsp;About Me
+```text
+> focus     Exploring new technologies, building software solutions and quick hacks
+> role      DevOps Engineer at TechStyleOS
+> studied   CoET, Technological University of the Philippines
+> learning  Cloud Architecture, Systems Design, Artificial Intelligence
+> hobbies   Graphic Design, Blog Writing
+```
 
-🤔 &nbsp;Exploring new technologies and developing software solutions and quick hacks.<br/>
-🎓 &nbsp; Studied CoET at Technological University of the Philippines.<br/>
-💼 &nbsp; Working as a DevOps Engineer at TechStyleOS.<br/>
-🌱 &nbsp; Learning more about Cloud Architecture, Systems Design and Artificial Intelligence.<br/>
-✍️ &nbsp; Pursuing Graphic Design and Blog Writing as hobbies/side hustles.<br/>
+### `$ ls ~/stack`
 
-<img alt="Coding" height="160em" src="images/coding-3.gif" align="right"/>
+![Terraform](https://img.shields.io/badge/-Terraform-0d0208?style=flat-square&logo=terraform&logoColor=00ff41)
+![Vault](https://img.shields.io/badge/-Vault-0d0208?style=flat-square&logo=vault&logoColor=00ff41)
+![Docker](https://img.shields.io/badge/-Docker-0d0208?style=flat-square&logo=docker&logoColor=00ff41)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-0d0208?style=flat-square&logo=kubernetes&logoColor=00ff41)
+![Jenkins](https://img.shields.io/badge/-Jenkins-0d0208?style=flat-square&logo=jenkins&logoColor=00ff41)
+![Ansible](https://img.shields.io/badge/-Ansible-0d0208?style=flat-square&logo=ansible&logoColor=00ff41)
+![K6](https://img.shields.io/badge/-K6-0d0208?style=flat-square&logo=k6&logoColor=00ff41)
+![Python](https://img.shields.io/badge/-Python-0d0208?style=flat-square&logo=python&logoColor=00ff41)
+![PHP](https://img.shields.io/badge/-PHP-0d0208?style=flat-square&logo=php&logoColor=00ff41)
+![Ruby](https://img.shields.io/badge/-Ruby-0d0208?style=flat-square&logo=ruby&logoColor=00ff41)
+![C++](https://img.shields.io/badge/-C%2B%2B-0d0208?style=flat-square&logo=cplusplus&logoColor=00ff41)
+![JavaScript](https://img.shields.io/badge/-JavaScript-0d0208?style=flat-square&logo=javascript&logoColor=00ff41)
+![Dart](https://img.shields.io/badge/-Dart-0d0208?style=flat-square&logo=dart&logoColor=00ff41)
+![Go](https://img.shields.io/badge/-Go-0d0208?style=flat-square&logo=go&logoColor=00ff41)
+![Typescript](https://img.shields.io/badge/-Typescript-0d0208?style=flat-square&logo=typescript&logoColor=00ff41)
+![CSS](https://img.shields.io/badge/-CSS-0d0208?style=flat-square&logo=css&logoColor=00ff41)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-0d0208?style=flat-square&logo=bootstrap&logoColor=00ff41)
+![Node.js](https://img.shields.io/badge/-Node.js-0d0208?style=flat-square&logo=node.js&logoColor=00ff41)
+![React](https://img.shields.io/badge/-React-0d0208?style=flat-square&logo=react&logoColor=00ff41)
+![MySQL](https://img.shields.io/badge/-MySQL-0d0208?style=flat-square&logo=mysql&logoColor=00ff41)
+![MongoDB](https://img.shields.io/badge/-MongoDB-0d0208?style=flat-square&logo=mongodb&logoColor=00ff41)
+![Git](https://img.shields.io/badge/-Git-0d0208?style=flat-square&logo=git&logoColor=00ff41)
+![GitHub](https://img.shields.io/badge/-GitHub-0d0208?style=flat-square&logo=github&logoColor=00ff41)
+![Markdown](https://img.shields.io/badge/-Markdown-0d0208?style=flat-square&logo=markdown&logoColor=00ff41)
 
-### 🛠 &nbsp;Tech Stack
-![Terraform](https://img.shields.io/badge/-Terraform-white?style=flat&logo=terraform&logoColor=black)
-![Vault](https://img.shields.io/badge/-Vault-white?style=flat&logo=vault&logoColor=black)
-![Docker](https://img.shields.io/badge/-Docker-white?style=flat&logo=docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-white?style=flat&logo=kubernetes)
-![Jenkins](https://img.shields.io/badge/-Jenkins-white?style=flat&logo=jenkins&logoColor=red)
-![Ansible](https://img.shields.io/badge/-Ansible-white?style=flat&logo=ansible&logoColor=red)
-![K6](https://img.shields.io/badge/-K6-white?style=flat&logo=k6&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-white?style=flat&logo=python)
-![PHP](https://img.shields.io/badge/-PHP-white?style=flat&logo=PHP)
-![Ruby](https://img.shields.io/badge/-Ruby-white?style=flat&logo=ruby&logoColor=red)
-![C++](https://img.shields.io/badge/-C++-white?style=flat&logo=C%2B%2B&logoColor=00599C)
-![JavaScript](https://img.shields.io/badge/-JavaScript-white?style=flat&logo=javascript)
-![Dart](https://img.shields.io/badge/-Dart-white?style=flat&logo=dart&logoColor=blue)
-![Go](https://img.shields.io/badge/-Go-white?style=flat&logo=go)
-![Typescript](https://img.shields.io/badge/-Typescript-white?style=flat&logo=typescript)
-![CSS](https://img.shields.io/badge/-CSS-white?style=flat&logo=CSS3&logoColor=1572B6)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-white?style=flat&logo=bootstrap&logoColor=563D7C)
-![Node.js](https://img.shields.io/badge/-Node.js-white?style=flat&logo=node.js)
-![React](https://img.shields.io/badge/-React-white?style=flat&logo=react)
-![MySQL](https://img.shields.io/badge/-MySQL-white?style=flat&logo=mysql)
-![MongoDB](https://img.shields.io/badge/-MongoDB-white?style=flat&logo=mongodb)
-![Git](https://img.shields.io/badge/-Git-white?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-white?style=flat&logo=github&logoColor=black)
-![Markdown](https://img.shields.io/badge/-Markdown-white?style=flat&logo=markdown&logoColor=black)
-<br/>
+### `$ git stats`
 
-### ⚙️ &nbsp;GitHub Analytics
+<p align="center">
 <a href="https://github.com/jhonatsz">
   <img height="176" alt="GitHub Stats" src="https://ghstats.dev/api/card?username=jhonatsz&size=compact&compact_count=6&alltime=true&bg=0d0208&text=00ff41&title_color=00ff41&icon_color=008f11&border_color=003b00" />
   <img height="176" alt="Most Used Languages" src="https://ghstats.dev/api/langs?username=jhonatsz&layout=compact&max_langs=10&bg=0d0208&text=00ff41&title_color=00ff41&icon_color=008f11&border_color=003b00" />
 </a>
-<br/>
+</p>
 
-### 🤝🏻 &nbsp;Connect with Me
+### `$ ping jhonatsz`
+
 <p align="center">
-<a href="https://www.jhonatsz.dev"><img src="https://img.shields.io/badge/-www.jhonatsz.dev-3423A6?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-<a href="mailto:jhonathan@giolosts.co"><img src="https://img.shields.io/badge/-jhonathan@giolosts.co-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://linkedin.com/in/jhonatsz"><img src="https://img.shields.io/badge/-jhonatsz-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="https://instagram.com/jhonatsz"><img src="https://img.shields.io/badge/-@jhonatsz-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://facebook.com/jhonatsz"><img src="https://img.shields.io/badge/-@jhonatsz-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+<a href="https://www.jhonatsz.dev"><img alt="Website" src="https://img.shields.io/badge/-www.jhonatsz.dev-0d0208?style=flat-square&logo=googlechrome&logoColor=00ff41"/></a>
+<a href="mailto:jhonathan@giolosts.co"><img alt="Email" src="https://img.shields.io/badge/-jhonathan@giolosts.co-0d0208?style=flat-square&logo=gmail&logoColor=00ff41"/></a>
+<a href="https://linkedin.com/in/jhonatsz"><img alt="LinkedIn" src="https://img.shields.io/badge/-in%2Fjhonatsz-0d0208?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzAwZmY0MSIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B"/></a>
+<a href="https://instagram.com/jhonatsz"><img alt="Instagram" src="https://img.shields.io/badge/-@jhonatsz-0d0208?style=flat-square&logo=instagram&logoColor=00ff41"/></a>
+<a href="https://facebook.com/jhonatsz"><img alt="Facebook" src="https://img.shields.io/badge/-@jhonatsz-0d0208?style=flat-square&logo=facebook&logoColor=00ff41"/></a>
 </p>

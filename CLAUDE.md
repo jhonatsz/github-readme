@@ -7,7 +7,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 The GitHub **profile README** for the `jhonatsz` account. GitHub renders
 `README.md` from the default branch of the repo named after the user
 (`jhonatsz/jhonatsz`) at the top of <https://github.com/jhonatsz>. There is no
-code, build, lint or test step: the repo is `README.md` plus `images/`.
+code, build, lint or test step: the repo is `README.md` plus `images/`, and one
+generator script for the banner (`scripts/gen_banner.py`).
 
 Every push to the default branch is a live, public change to the profile page.
 
@@ -20,26 +21,25 @@ light and dark themes before merging.
 
 ## How README.md is put together
 
-Sections, top to bottom: banner image, greeting, About Me, Tech Stack, GitHub
-Analytics, Connect with Me.
+The page has a hacker/terminal theme: green `00ff41` on near-black `0d0208`
+everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
+`$ ls ~/stack`, `$ git stats`, `$ ping jhonatsz`.
 
-- **Layout is done with inline HTML**, not Markdown: `<img align="left|right">`
-  floats, `height`/`width` attributes in `em`, `<br/>` line breaks and `&nbsp;`
-  spacing. GitHub strips `style` attributes and CSS, so these attributes are the
-  only layout tools. Most of the commit history is fine-tuning these values;
-  small changes shift the whole page, so re-check rendering after any edit.
-- **The right-floated `coding-3.gif`** sits beside the Tech Stack badges. The
-  number of badges decides how the text wraps around it and where the Analytics
-  section starts, so adding or removing badges can require re-tuning the image
-  height.
+- **GitHub strips `style` attributes, CSS and scripts**, so the theme comes
+  only from images, badges and code blocks. The page background stays GitHub's
+  own; the page looks best in dark mode.
+- **Section headings are commands** in inline code (`` ### `$ ls ~/stack` ``),
+  with no emoji.
+- **About** is a fenced `text` code block of `> key  value` lines, which GitHub
+  renders as a monospace panel. Keep the value column aligned.
 - **Tech Stack badges** are shields.io images, one per line, all in the same
-  shape: `https://img.shields.io/badge/-<Label>-white?style=flat&logo=<simple-icons slug>[&logoColor=<color>]`.
-  Keep the white background and `style=flat`; set `logoColor` only when the
-  default logo color is unreadable on white. URL-encode special characters in
-  the label (`C%2B%2B`).
-- **Connect badges** use the same shields.io pattern but with the brand color as
-  the background and `logoColor=white`, each wrapped in an `<a>` link inside a
-  centered `<p>`.
+  shape: `https://img.shields.io/badge/-<Label>-0d0208?style=flat-square&logo=<simple-icons slug>&logoColor=00ff41`.
+  URL-encode special characters in the label (`C%2B%2B`). A wrong or retired
+  slug still returns HTTP 200 but with no logo, so check the SVG contains an
+  `<image` element after adding one (`css3` and `linkedin` are retired).
+- **Connect badges** use the same pattern, each wrapped in an `<a>` link inside
+  a centered `<p>`. LinkedIn has no simple-icons slug any more, so its badge
+  embeds the logo as a URL-encoded base64 SVG data URI in `logo=`.
 - **GitHub Analytics** cards come from the hosted service
   [ghstats.dev](https://ghstats.dev) (`/api/card` and `/api/langs`; options in
   its [README](https://github.com/rowkavdev/GitHub-profile-stats)). It replaced
@@ -53,6 +53,13 @@ Analytics, Connect with Me.
 
 Local assets live in `images/` and are referenced by relative path, which works
 because the README is rendered from this repo's default branch.
+
+- `images/matrix-banner.svg` is the live banner: falling glyphs plus a typed
+  name line, animated with CSS only (GitHub serves SVGs as images, so scripts
+  never run). It is generated, not hand-edited: change `scripts/gen_banner.py`
+  and run `python3 scripts/gen_banner.py images/matrix-banner.svg`.
+- `images/banner.png` is the previous banner, kept as a backup and not
+  referenced by the README.
 
 ## Markdown/HTML gotcha
 
