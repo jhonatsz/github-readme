@@ -54,8 +54,9 @@ everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
 
 - **`$ uptime`** is a 31-day contribution graph from
   [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
-  (public Vercel instance), coloured to match the cards. Like ghstats.dev it
-  only sees public activity.
+  (public Vercel instance), coloured to match the cards. It plots the
+  public contribution calendar, so private work appears only if the account
+  setting to show private contributions is on.
 
 ## Images
 
