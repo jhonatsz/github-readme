@@ -44,9 +44,9 @@ Analytics, Connect with Me.
   [ghstats.dev](https://ghstats.dev) (`/api/card` and `/api/langs`; options in
   its [README](https://github.com/rowkavdev/GitHub-profile-stats)). It replaced
   a self-hosted github-readme-stats Vercel deployment that was disabled in
-  2026-11. ghstats.dev has no `buefy` theme, so both cards carry the same
-  colour overrides (`bg`, `text`, `title_color`, `icon_color`, `border_color`)
-  to keep that look; change them together. Both images use `height="176"` so
+  2026-11. Both cards carry the same colour overrides (`bg`, `text`,
+  `title_color`, `icon_color`, `border_color`) for a Matrix look: green
+  `00ff41` on near-black `0d0208`; change them together. Both images use `height="176"` so
   they sit side by side within the README width. It only sees public activity.
 
 ## Images
