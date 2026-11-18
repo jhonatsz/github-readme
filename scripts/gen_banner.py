@@ -6,7 +6,7 @@ W, H = 900, 260
 COL_W = 15          # column pitch
 GLYPH_H = 16        # vertical pitch of glyphs in a stream
 FONT = 14
-GLYPHS = "0101010123456789ABCDEF<>/=+*$#{}[]|&%;:"
+GLYPHS = "0123456789"
 
 NAME = "JHONATHAN HOWARD"
 PROMPT = "jhonatsz@github:~$ "
