@@ -37,6 +37,9 @@ everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
   URL-encode special characters in the label (`C%2B%2B`). A wrong or retired
   slug still returns HTTP 200 but with no logo, so check the SVG contains an
   `<image` element after adding one (`css3` and `linkedin` are retired).
+  AWS has no slug either and its logo is too long for a data URI, so its badge
+  is a saved shields.io SVG at `images/badge-aws.svg`. The list is kept to
+  about 15 cloud and platform tools on purpose; swap entries rather than grow it.
 - **Connect badges** use the same pattern, each wrapped in an `<a>` link inside
   a centered `<p>`. LinkedIn has no simple-icons slug any more, so its badge
   embeds the logo as a URL-encoded base64 SVG data URI in `logo=`.
