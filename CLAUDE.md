@@ -23,7 +23,7 @@ light and dark themes before merging.
 
 The page has a hacker/terminal theme: green `00ff41` on near-black `0d0208`
 everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
-`$ ls ~/stack`, `$ git stats`, `$ ping jhonatsz`.
+`$ ls ~/stack`, `$ git stats`, `$ uptime`, `$ ping jhonatsz`.
 
 - **GitHub strips `style` attributes, CSS and scripts**, so the theme comes
   only from images, badges and code blocks. The page background stays GitHub's
@@ -51,6 +51,11 @@ everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
   `title_color`, `icon_color`, `border_color`) for a Matrix look: green
   `00ff41` on near-black `0d0208`; change them together. Both images use `height="176"` so
   they sit side by side within the README width. It only sees public activity.
+
+- **`$ uptime`** is a 31-day contribution graph from
+  [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
+  (public Vercel instance), coloured to match the cards. Like ghstats.dev it
+  only sees public activity.
 
 ## Images
 

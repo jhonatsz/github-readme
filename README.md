@@ -37,6 +37,14 @@
 </a>
 </p>
 
+### `$ uptime`
+
+<p align="center">
+<a href="https://github.com/jhonatsz">
+  <img width="100%" alt="Contribution activity graph, last 31 days" src="https://github-readme-activity-graph.vercel.app/graph?username=jhonatsz&bg_color=0d0208&color=00ff41&line=00ff41&point=d8ffe0&area=true&area_color=00ff41&hide_border=true&custom_title=contribution%20activity" />
+</a>
+</p>
+
 ### `$ ping jhonatsz`
 
 <p align="center">
