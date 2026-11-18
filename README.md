@@ -4,7 +4,7 @@
 
 ```text
 > focus     Exploring new technologies, building software solutions and quick hacks
-> role      DevOps Engineer at TechStyleOS
+> role      Founder @ Giolosts · DevOps & Platform Engineer
 > studied   CoET, Technological University of the Philippines
 > learning  Cloud Architecture, Systems Design, Artificial Intelligence
 > hobbies   Graphic Design, Blog Writing
