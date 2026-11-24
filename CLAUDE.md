@@ -43,14 +43,20 @@ everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
 - **Connect badges** use the same pattern, each wrapped in an `<a>` link inside
   a centered `<p>`. LinkedIn has no simple-icons slug any more, so its badge
   embeds the logo as a URL-encoded base64 SVG data URI in `logo=`.
-- **GitHub Analytics** cards come from the hosted service
-  [ghstats.dev](https://ghstats.dev) (`/api/card` and `/api/langs`; options in
-  its [README](https://github.com/rowkavdev/GitHub-profile-stats)). It replaced
-  a self-hosted github-readme-stats Vercel deployment that was disabled in
-  2026-11. Both cards carry the same colour overrides (`bg`, `text`,
-  `title_color`, `icon_color`, `border_color`) for a Matrix look: green
-  `00ff41` on near-black `0d0208`; change them together. Both images use `height="176"` so
-  they sit side by side within the README width. It only sees public activity.
+- **`$ git stats`** cards come from two hosted services, on purpose, so one
+  outage doesn't blank the whole section. The streak card is
+  [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
+  (`streak-stats.demolab.com`); the languages card is the public
+  [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+  instance (`/api/top-langs/`). They replaced ghstats.dev, which started
+  returning HTTP 500 for every user on 2026-11-25 when its shared GitHub token
+  was rate limited (and that had replaced a self-hosted github-readme-stats
+  Vercel deployment disabled earlier in 2026-11). The two services name their
+  colour parameters differently, but both carry the same Matrix palette: green
+  `00ff41` on near-black `0d0208`, border `003b00`; change them together. Both
+  images use `height="176"` so they sit side by side within the README width.
+  Both only see public activity. A failing card still returns an SVG, so check
+  the card text, not the HTTP status.
 
 - **`$ uptime`** is a 31-day contribution graph from
   [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)

@@ -32,8 +32,8 @@
 
 <p align="center">
 <a href="https://github.com/jhonatsz">
-  <img height="176" alt="GitHub Stats" src="https://ghstats.dev/api/card?username=jhonatsz&size=compact&compact_count=6&alltime=true&bg=0d0208&text=00ff41&title_color=00ff41&icon_color=008f11&border_color=003b00" />
-  <img height="176" alt="Most Used Languages" src="https://ghstats.dev/api/langs?username=jhonatsz&layout=compact&max_langs=10&bg=0d0208&text=00ff41&title_color=00ff41&icon_color=008f11&border_color=003b00" />
+  <img height="176" alt="Contribution streak" src="https://streak-stats.demolab.com?user=jhonatsz&background=0d0208&border=003b00&stroke=003b00&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=008f11" />
+  <img height="176" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jhonatsz&layout=compact&langs_count=10&bg_color=0d0208&text_color=00ff41&title_color=00ff41&border_color=003b00" />
 </a>
 </p>
 
