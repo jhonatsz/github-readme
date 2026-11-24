@@ -12,6 +12,18 @@ generator script for the banner (`scripts/gen_banner.py`).
 
 Every push to the default branch is a live, public change to the profile page.
 
+## Changes go through pull requests
+
+Never push to `main` directly. Put every change on a branch (`fix/<topic>`,
+`feat/<topic>` or `docs/<topic>`, with no author segment), push the branch and
+open a pull request. The owner merges; don't merge it yourself unless asked.
+
+The one exception is the `update-cards` workflow, whose `github-actions[bot]`
+commits the regenerated card SVGs straight to `main`. To preview a card
+change before merging, run the workflow against the branch
+(`gh workflow run update-cards.yml --ref <branch>`); the bot then commits the
+cards to that branch.
+
 ## Previewing changes
 
 There is no local toolchain. Check rendering with a GitHub-flavored Markdown
