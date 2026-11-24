@@ -43,20 +43,29 @@ everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
 - **Connect badges** use the same pattern, each wrapped in an `<a>` link inside
   a centered `<p>`. LinkedIn has no simple-icons slug any more, so its badge
   embeds the logo as a URL-encoded base64 SVG data URI in `logo=`.
-- **`$ git stats`** cards come from two hosted services, on purpose, so one
-  outage doesn't blank the whole section. The streak card is
-  [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
-  (`streak-stats.demolab.com`); the languages card is the public
-  [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-  instance (`/api/top-langs/`). They replaced ghstats.dev, which started
-  returning HTTP 500 for every user on 2026-11-25 when its shared GitHub token
-  was rate limited (and that had replaced a self-hosted github-readme-stats
-  Vercel deployment disabled earlier in 2026-11). The two services name their
-  colour parameters differently, but both carry the same Matrix palette: green
-  `00ff41` on near-black `0d0208`, border `003b00`; change them together. Both
-  images use `height="176"` so they sit side by side within the README width.
-  Both only see public activity. A failing card still returns an SVG, so check
-  the card text, not the HTTP status.
+- **`$ git stats`** is two cards from two sources, so one outage doesn't blank
+  the whole section. Both carry the same Matrix palette (green `00ff41` on
+  near-black `0d0208`, border `003b00`) under differently named colour
+  parameters; change them together. Both images use `height="176"` so they
+  sit side by side within the README width.
+  - The streak card is hosted:
+    [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
+    (`streak-stats.demolab.com`). A failing hosted card still returns an SVG,
+    so check the card text, not the HTTP status.
+  - The languages card is a file in this repo, `images/top-langs.svg`,
+    rendered daily by `.github/workflows/update-cards.yml` with
+    [github-readme-stats-action](https://github.com/stats-organization/github-readme-stats-action)
+    and committed by `github-actions[bot]`. Don't hand-edit it; change the
+    `options` line in the workflow and run it (`gh workflow run
+    update-cards.yml`). The bot pushes to `main`, so pull before committing.
+    It counts private repos only when the `STATS_TOKEN` secret holds a
+    read-only PAT; without it the workflow token sees public repos only. The
+    action and its `core_version` are pinned because the job handles that
+    token; bump them deliberately.
+  - History: these replaced ghstats.dev, which returned HTTP 500 for every
+    user on 2026-11-25 when its shared GitHub token was rate limited, and
+    which had replaced a self-hosted github-readme-stats Vercel deployment
+    disabled earlier in 2026-11.
 
 - **`$ uptime`** is a 31-day contribution graph from
   [github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)
@@ -73,6 +82,8 @@ because the README is rendered from this repo's default branch.
   name line, animated with CSS only (GitHub serves SVGs as images, so scripts
   never run). It is generated, not hand-edited: change `scripts/gen_banner.py`
   and run `python3 scripts/gen_banner.py images/matrix-banner.svg`.
+- `images/top-langs.svg` is the languages card, regenerated daily by the
+  `update-cards` workflow (see `$ git stats` above).
 - `images/banner.png` is the previous banner, kept as a backup and not
   referenced by the README.
 
