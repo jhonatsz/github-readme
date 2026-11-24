@@ -60,8 +60,12 @@ everywhere. Sections, top to bottom: Matrix-rain banner, `$ cat about.txt`,
   first two are generated in this repo and the streak card is hosted, so one
   outage doesn't blank the whole section. All carry the same Matrix palette
   (green `00ff41` on near-black `0d0208`, border `003b00`) under differently named colour
-  parameters; change them together. All three images use `height="176"` so they
-  sit side by side within the README width.
+  parameters; change them together. All three images use `height="176"`.
+  The two rows are sized to line up: both generated cards hide their titles,
+  the stats card uses `line_height=28` so its height (183) is close to the
+  languages card's (185), and the streak card's `card_width=818` makes it
+  as wide as the row above (about 738 px). Changing `langs_count`, the stat
+  lines or a title changes those sizes, so recompute the streak width.
   - The streak card is hosted:
     [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
     (`streak-stats.demolab.com`). A failing hosted card still returns an SVG,
