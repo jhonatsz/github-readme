@@ -36,7 +36,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
           card: stats
-          options: username=jhonatsz&show_icons=true&include_all_commits=true&bg_color=0d0208&text_color=00ff41&title_color=00ff41&icon_color=008f11&border_color=003b00
+          options: username=jhonatsz&show_icons=true&hide_title=true&include_all_commits=true&bg_color=0d0208&text_color=00ff41&title_color=00ff41&icon_color=008f11&border_color=003b00
           path: images/stats.svg
           token: ${{ secrets.STATS_TOKEN }}
           core_version: 2.2.0
