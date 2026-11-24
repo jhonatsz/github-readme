@@ -1,0 +1,45 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # daily, 05:17 Asia/Manila
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      # STATS_TOKEN is a read-only PAT so private repos are counted. Without
+      # the secret the action falls back to the workflow token, which only
+      # sees public repos. fail_on_error keeps the last good card in place
+      # rather than committing a "Something went wrong" card.
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=jhonatsz&layout=compact&langs_count=10&bg_color=0d0208&text_color=00ff41&title_color=00ff41&border_color=003b00
+          path: images/top-langs.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          core_version: 2.2.0
+          fail_on_error: "true"
+
+      - name: Commit card
+        run: |
+          git add images/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "Card unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update the top languages card"
+          git push
