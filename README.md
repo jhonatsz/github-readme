@@ -32,8 +32,14 @@
 
 <p align="center">
 <a href="https://github.com/jhonatsz">
-  <img height="176" alt="Contribution streak" src="https://streak-stats.demolab.com?user=jhonatsz&background=0d0208&border=003b00&stroke=003b00&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=008f11" />
+  <img height="176" alt="GitHub Stats" src="images/stats.svg" />
   <img height="176" alt="Most Used Languages" src="images/top-langs.svg" />
+</a>
+</p>
+
+<p align="center">
+<a href="https://github.com/jhonatsz">
+  <img height="176" alt="Contribution streak" src="https://streak-stats.demolab.com?user=jhonatsz&background=0d0208&border=003b00&stroke=003b00&ring=00ff41&fire=00ff41&currStreakNum=00ff41&sideNums=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=008f11" />
 </a>
 </p>
 
